@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@keyframes moveline {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(-2335px);
+  }
+}
+@keyframes moveline_mob {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(-1727px);
+  }
+}
+.running-line {
+  width: 100vw;
+  height: 60px;
+  background-color: #F54932;
+  margin: 0 auto;
+}
+.running-line__wrapper {
+  width: 4670px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  background-color: #F54932;
+  justify-content: space-around;
+}
+.running-line__wrapper__list {
+  margin: 0;
+  display: flex;
+  width: 2335px;
+  color: #fff;
+  justify-content: space-around;
+  margin: auto 0;
+}
+.running-line__wrapper__list li {
+  font-family: Merriweather, serif;
+  font-size: 22px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.running-line__wrapper ._01 {
+  padding: 0;
+  animation: moveline 10s linear infinite;
+}
+.running-line__wrapper ._02 {
+  padding: 0;
+  animation: moveline 10s linear infinite;
+}
+
+@media (min-width: 360px) and (max-width: 575px) {
+  .running-line {
+    height: 38px;
+  }
+  .running-line__wrapper {
+    width: 4670px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    background-color: #F54932;
+    justify-content: space-around;
+    width: 3454px;
+  }
+  .running-line__wrapper__list {
+    margin: 0;
+    display: flex;
+    width: 2335px;
+    color: #fff;
+    justify-content: space-around;
+    margin: auto 0;
+  }
+  .running-line__wrapper__list li {
+    font-family: Merriweather, serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+  .running-line__wrapper ._01 {
+    padding: 0;
+    animation: moveline 10s linear infinite;
+  }
+  .running-line__wrapper ._02 {
+    padding: 0;
+    animation: moveline 10s linear infinite;
+  }
+  .running-line__wrapper__list {
+    width: 1727px;
+  }
+  .running-line__wrapper ._01 {
+    padding: 0;
+    animation: moveline_mob 10s linear infinite;
+  }
+  .running-line__wrapper ._02 {
+    padding: 0;
+    animation: moveline_mob 10s linear infinite;
+  }
+}/*# sourceMappingURL=runningLine.css.map */
