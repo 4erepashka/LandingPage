@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap");
+.header {
+  width: 100vw;
+  height: 100px;
+  margin: 0 auto;
+  position: absolute;
+}
+.header .container {
+  display: grid;
+  grid-template-columns: repeat(12, 83px);
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  min-height: 100px;
+  align-content: flex-start;
+  margin: 0 auto;
+  width: 1216px;
+}
+.header__logo_img {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  justify-self: start;
+  height: 32px;
+  width: 110px;
+  margin-top: 28.31px;
+}
+.header__logo_text {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  height: 32px;
+  width: 147px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  grid-column-end: 3;
+  justify-self: start;
+  margin-left: 6.35px;
+  margin-top: 28.31px;
+  text-transform: uppercase;
+  color: #595653;
+  font-family: Golos Text, sans-serif;
+  font-size: 16.55px;
+  font-weight: 700;
+}
+
+@media (min-width: 360px) and (max-width: 575px) {
+  .header {
+    width: 300px;
+    height: 100px;
+    margin: 0 auto;
+  }
+  .header .container {
+    display: grid;
+    grid-template-columns: repeat(4, 69px);
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+    min-height: 100px;
+    align-content: flex-start;
+    margin: 0 auto;
+    width: 336px;
+  }
+  .header__logo_img {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    justify-self: start;
+    height: 28px;
+    width: 85px;
+    margin-top: 18px;
+  }
+  .header__logo_img svg {
+    width: 17px;
+    height: 27px;
+  }
+  .header__logo_text {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    height: 28px;
+    width: 140px;
+    margin-left: -2px;
+    margin-top: 18px;
+    font-size: 14.42px;
+    line-height: 107%;
+  }
+}/*# sourceMappingURL=heder.css.map */
